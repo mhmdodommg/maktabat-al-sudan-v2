@@ -1,9 +1,13 @@
 // app/page.tsx
+import Navbar from '@/components/layout/Navbar';
+
 export default function Home() {
   return (
-    <div>
-      <h1>مكتبة السودان</h1>
-      <p>جاري التحميل...</p>
-    </div>
-  )
+    <>
+      <Navbar />
+      <main>
+        <h1 className="text-center mt-10">مرحباً بكم في مكتبة السودان</h1>
+      </main>
+    </>
+  );
 }
