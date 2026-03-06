@@ -1,3 +1,4 @@
+import Footer from '@/components/layout/Footer';
 import Navbar from '@/components/layout/Navbar';
 
 export default function Home() {
@@ -54,25 +55,7 @@ export default function Home() {
           <div className="books-container"></div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="premium-footer">
-        <div className="footer-content">
-          <div className="footer-column logo-column">
-            <div className="footer-logo">
-              <img src="/image/default-image/sudanlibrary.png" alt="شعار مكتبة السودان" />
-              <h3>مكتبة السودان</h3>
-            </div>
-            <p className="footer-description">نافذتك إلى عالم المعرفة والثقافة العربية والإسلامية</p>
-          </div>
-        </div>
-        <div className="footer-bottom">
-          <div className="copyright">
-            <p>&copy; 2026 مكتبة السودان. جميع الحقوق محفوظة</p>
-            <p>تصميم وتطوير <span>MMG WORKS</span></p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }
